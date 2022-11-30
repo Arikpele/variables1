@@ -1,10 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        var firstBoxer=78.2;
-        var secondBoxer=82.7;
-        var weightDifference=secondBoxer-firstBoxer;
-        System.out.println("разница в весе"+weightDifference+"кг");
-        var over = (secondBoxer+firstBoxer)%weightDifference;
-        System.out.println (over);
+        var totalTime=640;
+        var workingDay=8;
+        var workers=totalTime/workingDay;
+        System.out.println("Всего работников в компании — "+workers+"человек");
+        var overWorkers=94;
+        var totalWorkers=overWorkers+workers;
+        var hourWorker=totalWorkers*workingDay;
+        System.out.println("Если в компании работает" + totalWorkers + "человек, то всего"+hourWorker+"часов работы может быть поделено между сотрудниками");
+
     }
 }
