@@ -1,19 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        var dog = 8;
-        var cat = 3.6;
+        var dog = 10;
+        var cat = 3.5;
         var paper = 763789;
-        System.out.println (dog);
-        System.out.println(cat);
-        System.out.println(paper);
-        var man = 8;
-        var woman = 3.6;
-        var mouse = 763789;
-        man=man+4;
-        woman=woman+4;
-        mouse=mouse+4;
-        System.out.println (man);
-        System.out.println(woman);
-        System.out.println(mouse);
+        var mouse = dog+4;
+        var man=cat+4;
+        var woman=paper+4;
+        var x=dog-3.5;
+        var z=cat-1.6;
+        var c= paper-7639;
+        System.out.println(x);
+        System.out.println(z);
+        System.out.println(c);
     }
 }
